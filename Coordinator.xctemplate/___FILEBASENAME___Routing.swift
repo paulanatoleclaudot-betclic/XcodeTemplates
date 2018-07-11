@@ -1,13 +1,14 @@
 //___FILEHEADER___
 
 import Foundation
+import BetclicSport
 
-public protocol Show___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___ {
-    func show___FILEBASENAMEASIDENTIFIER___()
+public protocol Show___VARIABLE_productName:identifier___Routing: ___VARIABLE_productName:identifier___Routing {
+    func show___VARIABLE_productName:identifier___()
 }
 
-public extension Show___FILEBASENAMEASIDENTIFIER___ where Self: SportNavCoordinator {
-    public func show___FILEBASENAMEASIDENTIFIER___() {
+public extension Show___VARIABLE_productName:identifier___Routing where Self: SportNavCoordinator {
+    public func show___VARIABLE_productName:identifier___() {
         let vm = <# ViewModelName #>(routing: self)
         let vc = <# ViewControllerName #>.instantiate(viewModel: vm, analyticsService: sportCoordinatorBuilder.userServices.analyticsService)
 
@@ -18,11 +19,11 @@ public extension Show___FILEBASENAMEASIDENTIFIER___ where Self: SportNavCoordina
     }
 }
 
-public protocol ___FILEBASENAMEASIDENTIFIER___: class {
+public protocol ___VARIABLE_productName:identifier___Routing: class {
     func closePopup()
 }
 
-public extension ___FILEBASENAMEASIDENTIFIER___ where Self: SportNavCoordinator  {
+public extension ___VARIABLE_productName:identifier___Routing where Self: SportNavCoordinator  {
     public func closePopup() {
         dismissAlertController(animated: true)
     }
