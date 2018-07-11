@@ -1,6 +1,8 @@
 //___FILEHEADER___
 
 import UIKit
+import Reusable
+import BetclicUser
 
 /// A view controller responsible for <# what does this do ? #>
 final class ___VARIABLE_productName:identifier___ViewController: UIViewController, StoryboardBased {

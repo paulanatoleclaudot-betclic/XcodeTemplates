@@ -10,9 +10,10 @@ public extension Show___FILEBASENAMEASIDENTIFIER___ where Self: SportNavCoordina
     public func show___FILEBASENAMEASIDENTIFIER___() {
         let vm = <# ViewModelName #>(routing: self)
         let vc = <# ViewControllerName #>.instantiate(viewModel: vm, analyticsService: sportCoordinatorBuilder.userServices.analyticsService)
-        tooltipMarketVC.modalPresentationStyle = .overFullScreen
-        tooltipMarketVC.modalTransitionStyle = .crossDissolve
-        
+
+        // vc.modalPresentationStyle = .overFullScreen
+        // vc.modalTransitionStyle = .crossDissolve
+
         presentAlertController(vc, animated: true)
     }
 }
