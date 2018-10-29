@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>Betclic View Controller</string>
 	<key>SortOrder</key>
-	<string>30</string>
+	<string>0</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -19,21 +19,21 @@
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
 	<key>Options</key>
-  <array>
-    <dict>
-      <key>Identifier</key>
-      <string>productName</string>
-      <key>Required</key>
-      <true/>
-      <key>Name</key>
-      <string>Base name:</string>
-      <key>Description</key>
-      <string>'ForgotPassword' will create 'ForgotPasswordViewController'</string>
-      <key>Type</key>
-      <string>text</string>
-      <key>Default</key>
-      <string>MyFeature</string>
-    </dict>
-  </array>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Base name:</string>
+			<key>Description</key>
+			<string>&apos;ForgotPassword&apos; will create &apos;ForgotPasswordViewController&apos;</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>MyFeature</string>
+		</dict>
+	</array>
 </dict>
 </plist>

@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>Betclic sport coordinator</string>
 	<key>SortOrder</key>
-	<string>30</string>
+	<string>0</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
