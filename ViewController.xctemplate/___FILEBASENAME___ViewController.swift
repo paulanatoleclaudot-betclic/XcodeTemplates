@@ -8,7 +8,7 @@ import BetclicUser
 final class ___VARIABLE_productName:identifier___ViewController: UIViewController, StoryboardBased {
 
     // MARK: - Factory
-    static func instantiate(viewModel: ___VARIABLE_productName:identifier___ViewModel, analyticsService: IBetclicAnalyticsService) -> ___VARIABLE_productName:identifier___ViewController {
+    static func instantiate(viewModel: ___VARIABLE_productName:identifier___ViewModelProtocol, analyticsService: BetclicAnalyticsServiceProtocol) -> ___VARIABLE_productName:identifier___ViewController {
         let vc = ___VARIABLE_productName:identifier___ViewController.instantiate()
         vc.viewModel = viewModel
         vc.analyticsService = analyticsService
@@ -16,8 +16,8 @@ final class ___VARIABLE_productName:identifier___ViewController: UIViewControlle
     }
 
     // MARK: - Properties
-    private var viewModel: ___VARIABLE_productName:identifier___ViewModel!
-    private var analyticsService: IBetclicAnalyticsService!
+    private var viewModel: ___VARIABLE_productName:identifier___ViewModelProtocol!
+    private var analyticsService: BetclicAnalyticsServiceProtocol!
 
     // MARK: - IBOutlets
 
